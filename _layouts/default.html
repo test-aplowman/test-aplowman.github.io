@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+    <div id="container">
+
+        <!-- <div id="header-space-left"></div> -->
+        <div id="header">
+            <div id="nav-control">
+                <span class="nav-control-bar"></span>
+                <span class="nav-control-bar"></span>
+                <span class="nav-control-bar"></span>
+            </div>
+            <!-- <div id="logo">
+                <img class="header-logo"
+                    src="{{ '/assets/images/lightform-logo-words.png' | prepend: site.baseurl | prepend: site.url }}">
+            </div> -->
+        </div>
+        <!-- <div id="header-space-right"></div> -->
+        <div id="nav-wrap">
+            <div id="nav">
+                <div id="logo">
+                    <img class="header-logo"
+                        src="{{ '/assets/images/lightform-logo-words.png' | prepend: site.baseurl | prepend: site.url }}">
+                </div>
+                <div class="nav-group">
+                    <div class="nav-group-title">Posts</div>
+                    <ul class="post-list">
+                        {% for post in site.posts %}
+                        <li>
+                            <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="nav-group">
+                    <div class="nav-group-title">Tags</div>
+                    <div class="all-tags">
+                        <a href="#">#simulation</a><a href="#">#damask</a><a href="#">#csf</a><a
+                            href="#">#crystal-plasticity</a><a href="#">#theory</a><a href="#">#experiment</a>
+                    </div>
+                </div>
+                <span id="pin-nav">Pin</span>
+            </div>
+        </div>
+        <div id="nav-space"></div>
+        <div id="content">
+            {{ content }}
+        </div>
+    </div>
+
+    <script>
+
+        function toggleNav() {
+            console.log("toggleNav");
+            var bod = document.body;
+            var navControl = document.getElementById("nav-control");
+            if (!bod.classList.contains('nav-open') && !bod.classList.contains('nav-closed')) {
+                bod.classList.toggle('nav-closed');
+                console.log("toggleNav: no nav-open/nav-closed class on body");
+            }
+            bod.classList.toggle('nav-open');
+            bod.classList.toggle('nav-closed');
+            bod.classList.toggle('no-scroll');
+            navControl.classList.toggle("open");
+        }
+
+        window.addEventListener('click', function (e) {
+
+            console.log("click somewhere with ID: " + e.target.id)
+
+            var bod = document.body;
+
+            if (e.target.id == 'nav-control' || e.target.classList.contains('nav-control-bar')) {
+                console.log("clicked nav-control");
+                toggleNav()
+
+            } else if (bod.classList.contains('nav-open') && e.target.id != 'nav-control') {
+                if (!document.getElementById('nav-wrap').contains(e.target)) {
+                    console.log("clicked out nav")
+                    toggleNav()
+                }
+            }
+
+        });
+
+        document.getElementById('pin-nav').addEventListener('click', function (e) {
+            console.log("pin nav")
+            var nav = document.getElementById('nav-wrap');
+            nav.classList.toggle('sticky');
+        });
+
+    </script>
+
+</body>
+
+</html>

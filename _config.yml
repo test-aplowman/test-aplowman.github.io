@@ -47,20 +47,7 @@ defaults:
       show_breadcrumbs: false
       show_meta: false
   - scope:
-      path: ''
-      type: experiments
-    values:
-      show_breadcrumbs: true
-      show_meta: true
-  - scope:
-      path: ''
-      type: software_and_simulation
-    values:
-      show_breadcrumbs: true
-      show_meta: true
-  - scope:
-      path: ''
-      type: miscellaneous
+      path: 'collections/*/*'
     values:
       show_breadcrumbs: true
       show_meta: true

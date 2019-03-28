@@ -20,18 +20,21 @@ collections:
     nav_name: Experiments
     nav_list_pages: false
     index_list_pages: false
+    permalink: /:collection/:name
   software_and_simulation:
     output: true
     nav_order: 2
     nav_name: Software & Simulation
     nav_list_pages: false
     index_list_pages: true
+    permalink: /:collection/:name
   miscellaneous: 
     output: true
     nav_order: 3
     nav_name: Miscellaneous
     nav_list_pages: true
     index_list_pages: true
+    permalink: /:collection/:name
 
 defaults:
   - scope:

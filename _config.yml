@@ -44,10 +44,5 @@ defaults:
   - scope:
       path: ""
     values:
-      show_breadcrumbs: false
-      show_meta: false
-  - scope:
-      path: "collections/*"
-    values:
       show_breadcrumbs: true
       show_meta: true

@@ -10,7 +10,7 @@ show_meta: false
 | ---------- | -------- | ----------------- | ------------- |
 {% for exp in site.experiments -%}
     {% assign filename = exp.url | split: "/" -%}
-    {% if filename[-1] != "index.html" -%}
+    {% if filename[-1] != "index" -%}
         {% assign exp_name = filename[-1] | split: ".html" -%}
         | [{{ exp.title }}]({{ exp.url }}) | {{ exp.author }} | [Download](/checklists/{{ exp_name[0] | append: '.yml' }}) | [Link]({{ exp.analysis_code }}) |
     {% endif %}

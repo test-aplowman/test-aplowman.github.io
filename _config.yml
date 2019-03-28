@@ -37,22 +37,22 @@ defaults:
   - scope:
       path: ''
       type: experiments
-    values:      
+    values:
       layout: post
       tags: [protocol, experiment]
       toc: false
   - scope:
+      path: '*'
+    values:
+      show_breadcrumbs: false
+      show_meta: false         
+  - scope:
       path: 'collections/*/*'
     values:
       show_breadcrumbs: true
-      show_meta: true 
+      show_meta: true
   - scope:
       path: 'collections/*/index.md'
     values:
       show_breadcrumbs: false
       show_meta: false
-  - scope:
-      path: '*'
-    values:
-      show_breadcrumbs: false
-      show_meta: false     

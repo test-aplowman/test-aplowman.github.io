@@ -19,7 +19,7 @@ layout: default
 <article class="{{ article_class }}">
     <header class="article-header">
         <p>show_breadcrumbs: {{ page.show_breadcrumbs }}</p>
-        {% if page.show_breadcrumbs != false %}
+        {% if page.show_breadcrumbs %}
         <div class="post-breadcrumbs">[<a
                 href="{{ site.url }}{{ site.baseurl }}/{{ page.collection }}">{{ collec_nav_nav }}</a>]</div>
         {% endif %}

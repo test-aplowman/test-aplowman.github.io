@@ -5,5 +5,6 @@
     <title>{% if page.title %}{{ " - " | prepend: page.title }}{% endif %}{{ site.title }}</title>
     <meta name="description" content="{{ site.description }}">
     <link id="main-style-link" rel="stylesheet"
-        href="{{ '/assets/styles/main-light.css' | prepend: site.baseurl | prepend: site.url }}">
+        href="{{ '/assets/styles/main.css' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | prepend: site.baseurl }}">
 </head>

@@ -1,3 +1,58 @@
 markdown: kramdown
 kramdown:
   input: GFM
+
+# Want to include files in `_includes/code` (expected way doesn't work).
+include: 
+  - _includes
+exclude:
+  - _includes/head.html
+  - _includes/page_sidebar.html
+  - _includes/page_header.html
+  - _includes/toc.html
+  - _includes/get_tags.html
+
+collections_dir: collections
+collections:
+  experiments:
+    output: true
+    nav_order: 1
+    nav_name: Experiments
+    nav_list_pages: false
+    index_list_pages: false
+  software_and_simulation:
+    output: true
+    nav_order: 2
+    nav_name: Software & Simulation
+    nav_list_pages: false
+    index_list_pages: true
+  miscellaneous: 
+    output: true
+    nav_order: 3
+    nav_name: Miscellaneous
+    nav_list_pages: true
+    index_list_pages: true
+
+defaults:
+  - scope:
+      path: ''
+      type: experiments
+    values:      
+      layout: post
+      tags: [protocol, experiment]
+      toc: false
+  - scope:
+      path: 'collections/*/*'
+    values:
+      show_breadcrumbs: true
+      show_meta: true 
+  - scope:
+      path: 'collections/*/index.md'
+    values:
+      show_breadcrumbs: false
+      show_meta: false
+  - scope:
+      path: '*'
+    values:
+      show_breadcrumbs: false
+      show_meta: false     

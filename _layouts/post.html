@@ -1,21 +1,47 @@
 ---
 layout: default
 ---
-<article class="main">
-    <header>
+
+{% assign collec_nav_nav = page.collection %}
+{% for collec in site.collections %} 
+    {% if collec.label == page.collection %}
+        {% assign collec_nav_nav = collec.nav_name %}
+    {% endif %}
+{% endfor %} 
+
+{% assign article_class = 'main' %}
+{% if page.page_width == 'wide' %}
+    {% assign article_class = article_class | append: ' page-wide' %}
+{% endif %}
+
+{% assign num_tags = page.tags.size %}
+
+<article class="{{ article_class }}">
+    <header class="article-header">
+        {% if page.show_breadcrumbs != false %}
+            <div class="post-breadcrumbs">[<a href="{{ site.url }}{{ site.baseurl }}/{{ page.collection }}">{{ collec_nav_nav }}</a>]</div>        
+        {% endif %}        
         <h1 class="post-title">{{ page.title }}</h1>
-        <div class="post-meta">
-            <time datetime="2017-01-15T00:00:00+00:00" itemprop="datePublished">
-                Jan 15, 2017
-            </time>•
-            <span class="author-name">{{ page.author }}</span> •
-            <span class="all-tags">
-                <a href="#">#simulation</a><a href="#">#damask</a><a href="#">#csf</a>
-            </span>
-        </div>
+        {% if page.show_meta %}
+            <div class="post-meta">
+                <span class="author-name">{{ page.author }}</span>
+                {% if num_tags > 0 %}
+                    •
+                    <span class="all-tags">
+                        {% for tag in page.tags %}<a
+                            href="{{ site.url }}{{ site.baseurl }}/tagged/#{{ tag }}">#{{ tag }}</a>{% endfor %}
+                    </span>
+                {% endif %}
+            </div>
+        {% endif %}
     </header>
-    <div class="post-content" itemprop="articleBody">
+    {% if page.toc %}
+    <nav class="article-toc">
+        {% include toc.html html=content sanitize=true class="inline-toc" h_min=2 h_max=4 %}
+    </nav>
+    {% endif %}
+    <div class="article-border"></div>
+    <div class="article-content" itemprop="articleBody">
         {{ content }}
     </div>
-    <hr>
 </article>

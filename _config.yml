@@ -43,6 +43,19 @@ defaults:
       toc: false
   - scope:
       path: ""
+      type: "experiments"
     values:
       show_breadcrumbs: true
       show_meta: true
+  - scope:
+      path: ""
+      type: "software_and_simulation"
+    values:
+      show_breadcrumbs: true
+      show_meta: true      
+  - scope:
+      path: ""
+      type: "miscellaneous"
+    values:
+      show_breadcrumbs: true
+      show_meta: true      

@@ -4,14 +4,14 @@ layout: default
 
 {% assign collec_nav_nav = page.collection %}
 {% for collec in site.collections %}
-{% if collec.label == page.collection %}
-{% assign collec_nav_nav = collec.nav_name %}
-{% endif %}
+    {% if collec.label == page.collection %}
+        {% assign collec_nav_nav = collec.nav_name %}
+    {% endif %}
 {% endfor %}
 
 {% assign article_class = 'main' %}
 {% if page.page_width == 'wide' %}
-{% assign article_class = article_class | append: ' page-wide' %}
+    {% assign article_class = article_class | append: ' page-wide' %}
 {% endif %}
 
 {% assign num_tags = page.tags.size %}
@@ -24,6 +24,7 @@ layout: default
                 href="{{ site.url }}{{ site.baseurl }}/{{ page.collection }}">{{ collec_nav_nav }}</a>]</div>
         {% endif %}
         <h1 class="post-title">{{ page.title }}</h1>
+        <p>show_breadcrumbs: {{ page.show_meta }}</p>
         {% if page.show_meta %}
         <div class="post-meta">
             <span class="author-name">{{ page.author }}</span>

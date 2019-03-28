@@ -2,8 +2,6 @@
 layout: collection_home
 title: Experiments
 page_width: wide
-show_breadcrumbs: false
-show_meta: false
 ---
 
 | Experiment | Champion | Metadata template | Analysis code |

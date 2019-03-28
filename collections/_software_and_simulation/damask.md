@@ -1,5 +1,4 @@
 ---
-layout: post
 title: DAMASK
 author: Adam Plowman
 tags: [simulation, csf, damask]

@@ -17,10 +17,10 @@ For screen sharing, you will need to [download](https://slack.com/downloads) the
 2. Select the phone icon
 3. Select `Start new call`
 
-![Making a Slack video call; steps 1 and 2.](/assets/images/slack_chairperson_1_2.png)
+![Making a Slack video call; steps 1 and 2.](/assets/images/posts/slack_chairperson_1_2.png)
 *Steps 1 and 2*
 
-![Making a Slack video call; step 3.](/assets/images/slack_chairperson_3.png)
+![Making a Slack video call; step 3.](/assets/images/posts/slack_chairperson_3.png)
 *Step 3*
 
 ## Instructions for attendees

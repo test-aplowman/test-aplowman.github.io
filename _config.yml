@@ -1,3 +1,9 @@
+# Site settings
+title: "LightForm Wiki"
+description: "LightForm Wiki site."
+url: ""
+author: "Adam Plowman"
+
 markdown: kramdown
 kramdown:
   input: GFM

@@ -65,7 +65,7 @@ defaults:
       show_breadcrumbs: true
       show_meta: true      
   - scope:
-      path: collections/*/index.md
+      path: collections/_experiments/index.md
     values:
       show_breadcrumbs: false      
       show_meta: false

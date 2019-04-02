@@ -23,4 +23,14 @@ layout: post
     {% endif %}
 {% endfor %}
 
+{% assign collec = site.collections | where: "label", page.collection | first %}
+{% assign site_url_split = site.url | split: "https://" %}
+{% assign prose_new_url = "https://prose.io/#" | append: site.organisation | append: "/" | append: site_url_split[1] | append: "/new/master/" %}
+{% if page.collection %}
+    {% assign prose_new_url = prose_new_url | append: "collections/" %}
+{% endif %}
+{% assign prose_new_url = prose_new_url | append: collec.relative_directory %}
+
 {{ content }}
+
+<a href="{{ prose_new_url }}" class="add-exp-button">+ add {{ collec.add_new_name }}</a>

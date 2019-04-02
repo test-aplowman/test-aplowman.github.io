@@ -15,5 +15,3 @@ show_meta: false
         | [{{ exp.title }}]({{ exp.url }}) | {{ exp.author }} | [Download](/checklists/{{ exp_name[0] | append: '.yml' }}) | [Link]({{ exp.analysis_code }}) |
     {% endif %}
 {% endfor %}
-
-<a href="http://prose.io/#test-aplowman/test-aplowman.github.io/tree/master/_posts" class="add-exp-button">+ add experiment</a>

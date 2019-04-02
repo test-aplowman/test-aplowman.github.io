@@ -1,7 +1,7 @@
 # Site settings
 title: "LightForm Wiki"
 description: "LightForm Wiki site."
-url: ""
+url: "test-aplowman.github.io"
 maintainer: "Adam Plowman"
 
 markdown: kramdown

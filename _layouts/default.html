@@ -8,8 +8,9 @@
     <div class="page-main">
         {% include page_header.html %}
         <div class="page-content">
-            <p>URL: {{ page.url }}</p>
+            <p>page.url: {{ page.url }}</p>
             <p>site.baseurl: {{ site.baseurl }}</p>
+            <p>site.url: {{ site.url }}</p>
             {{ content }}
         </div>
         <div class="page-footer"></div>

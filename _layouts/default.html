@@ -17,7 +17,6 @@
             console.log("toggleNav");
             var bod = document.body;
             var navControl = document.getElementsByClassName('sidebar-control')[0];
-            //var navControl = document.getElementById("sidebar-control");
             if (!bod.classList.contains('sidebar-open') && !bod.classList.contains('sidebar-closed')) {
                 bod.classList.toggle('sidebar-closed');
                 console.log("toggleNav: no sidebar-open/sidebar-closed class on body");
@@ -38,7 +37,6 @@
 
             } else if (bod.classList.contains('sidebar-open') && e.target.id != 'sidebar-control') {
                 if (!document.getElementsByClassName('sidebar-wrap')[0].contains(e.target)) {
-                    //if (!document.getElementById('sidebar-wrap').contains(e.target)) {
                     console.log("clicked out nav")
                     toggleNav()
                 }
@@ -49,7 +47,6 @@
 
             var bod = document.body;
             var navControl = document.getElementsByClassName('sidebar-control')[0];
-            //var navControl = document.getElementById("sidebar-control");
 
             evt = evt || window.event;
             if (evt.key == "Escape") {

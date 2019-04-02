@@ -2,7 +2,7 @@
 title: "LightForm Wiki"
 description: "LightForm Wiki site."
 maintainer: "Adam Plowman"
-organisation: test-aplowman
+github_user_or_organisation: test-aplowman
 markdown: kramdown
 kramdown:
   input: GFM

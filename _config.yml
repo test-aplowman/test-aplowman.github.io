@@ -2,7 +2,7 @@
 title: "LightForm Wiki"
 description: "LightForm Wiki site."
 url: ""
-author: "Adam Plowman"
+maintainer: "Adam Plowman"
 
 markdown: kramdown
 kramdown:
@@ -66,3 +66,14 @@ defaults:
       layout: post
       show_breadcrumbs: true
       show_meta: true      
+
+prose:
+  ignore: [
+    _config.yml,
+    .gitignore,
+    favicon.ico,
+    tagged.html,
+    _sass,
+    _layouts/*,
+    _includes/,
+  ]

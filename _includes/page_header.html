@@ -2,7 +2,6 @@
 {% assign prose_url = "https://prose.io/#" | append: site.organisation | append: "/" | append: site_url_split[1] | append: "/edit/master/" %}
 <!--/edit/master for a file, /tree/master for a directory-->
 {% if page.collection %}
-    <p>page is in a collection.</p>
     {% assign prose_url = prose_url | append: "collections/" %}
 {% endif %}
 {% assign prose_url = prose_url | append: page.path %}

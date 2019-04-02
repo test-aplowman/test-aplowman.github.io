@@ -76,6 +76,6 @@ prose:
     tagged.html,
     _sass,
     _layouts,
-    _includes
+    _includes,
     _posts,
   ]

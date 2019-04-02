@@ -2,10 +2,11 @@
 layout: collection_home
 title: Tags
 permalink: /tags/
+published: true
 ---
 
 {% include get_tags.html %}
-
+heya
 {% for tag in tags %}
     <h3 class="tag-title" id="{{ tag | slugify }}">#{{ tag }}</h3>
     <ul>

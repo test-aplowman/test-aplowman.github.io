@@ -72,7 +72,6 @@ prose:
     _config.yml,
     .gitignore,
     favicon.ico,
-    tagged.html,
     _sass,
     _layouts,
     _includes,

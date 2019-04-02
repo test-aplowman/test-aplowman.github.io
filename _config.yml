@@ -68,12 +68,14 @@ defaults:
       show_meta: true      
 
 prose:
+  media: 'assets/images/posts'
   ignore: [
     _config.yml,
     .gitignore,
     favicon.ico,
     tagged.html,
     _sass,
-    _layouts/*,
-    _includes/,
+    _layouts,
+    _includes
+    _posts,
   ]

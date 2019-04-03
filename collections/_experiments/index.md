@@ -6,9 +6,11 @@ show_breadcrumbs: false
 show_meta: false
 ---
 
+{% assign exp_sorted = site.experiments | sort: "title" %}
+
 | Experiment | Champion | Metadata template | Analysis code |
 | ---------- | -------- | ----------------- | ------------- |
-{% for exp in site.experiments -%}
+{% for exp in exp_sorted -%}
     {% assign filename = exp.url | split: "/" -%}
     {% if filename[-1] != "index" -%}
         {% assign exp_name = filename[-1] | split: ".html" -%}

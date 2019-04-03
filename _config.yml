@@ -104,6 +104,11 @@ prose:
           help: "Check this to display a table of contents with your post."
           value: true
     collections/_experiments:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          help: "This is the title of your post."      
       - name: "author"
         field:
           element: "text"

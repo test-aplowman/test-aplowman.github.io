@@ -80,7 +80,7 @@ prose:
     _includes,
     _posts,
   ]
-  meta:
+  metadata:
     collections:
       - name: "title"
         field:

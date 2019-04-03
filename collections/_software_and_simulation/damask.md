@@ -6,7 +6,7 @@ tags:
   - csf
   - damask
 toc: true
-published: false
+published: true
 ---
 
 [DAMASK](https://damask.mpie.de/) is a code for simulating crystal plasticity within a finite-strain continuum mechanical framework.

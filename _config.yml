@@ -80,6 +80,11 @@ prose:
     _includes,
     _posts,
   ]
+  users:
+    - login: aplowman
+      user: Adam Plowman
+    - login: JQFonseca
+      user: João Fonseca
   metadata:
     collections:
       - name: "title"

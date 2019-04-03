@@ -1,8 +1,12 @@
 ---
 title: DAMASK
 author: Adam Plowman
-tags: [simulation, csf, damask]
+tags:
+  - simulation
+  - csf
+  - damask
 toc: true
+published: true
 ---
 
 [DAMASK](https://damask.mpie.de/) is a code for simulating crystal plasticity within a finite-strain continuum mechanical framework.

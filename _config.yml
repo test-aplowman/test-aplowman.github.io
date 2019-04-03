@@ -51,7 +51,8 @@ defaults:
     values:
       layout: post
       tags: [protocol, experiment]
-      toc: false    
+      toc: false
+      published: true
       show_breadcrumbs: true
       show_meta: true
   - scope:

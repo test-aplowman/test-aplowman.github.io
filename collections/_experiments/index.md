@@ -12,6 +12,10 @@ show_meta: false
     {% assign filename = exp.url | split: "/" -%}
     {% if filename[-1] != "index" -%}
         {% assign exp_name = filename[-1] | split: ".html" -%}
-        | [{{ exp.title }}]({{ exp.url }}) | {{ exp.author }} | [Download](/checklists/{{ exp_name[0] | append: '.yml' }}) | [Link]({{ exp.analysis_code }}) |
+        {% assign an_code_link = "-" -%}
+        {% if exp.analysis_code -%}
+            {% assign an_code_link = '[Link](' | append: exp.analysis_code | append: ')' -%}
+        {% endif -%}
+        | [{{ exp.title }}]({{ exp.url }}) | {{ exp.author }} | [Download](/checklists/{{ exp_name[0] | append: '.yml' }}) | {{ an_code_link }} |
     {% endif -%}
 {% endfor -%}

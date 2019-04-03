@@ -1,5 +1,5 @@
 ---
-layout: collection_home
+layout: post
 title: Welcome to the LightForm Wiki!
 ---
 

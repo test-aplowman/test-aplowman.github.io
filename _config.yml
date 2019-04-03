@@ -81,7 +81,7 @@ prose:
     _posts,
   ]
   metadata:
-    collections:
+    collections/:
       - name: "title"
         field:
           element: "text"

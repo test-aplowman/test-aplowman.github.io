@@ -34,7 +34,7 @@ collections:
     nav_list_pages: false
     index_list_pages: true
     permalink: /:collection/:name
-    add_new_name: software & simulation
+    add_new_name: page
   miscellaneous: 
     output: true
     nav_order: 3
@@ -42,7 +42,7 @@ collections:
     nav_list_pages: true
     index_list_pages: true
     permalink: /:collection/:name
-    add_new_name: miscellaneous
+    add_new_name: page
 
 defaults:
   - scope:

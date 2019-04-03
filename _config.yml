@@ -81,18 +81,17 @@ prose:
     _posts,
   ]
   metadata:
-    "*": 
-      - name: "author"
-        field:
-          element: "text"
-          label: "Author"
-          value: CURRENT_USER
     collections:
       - name: "title"
         field:
           element: "text"
           label: "Title"
           help: "This is the title of your post."
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author"
+          value: CURRENT_USER          
       # - name: "published"
       #   field:
       #     element: "checkbox"

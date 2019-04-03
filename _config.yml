@@ -80,3 +80,16 @@ prose:
     _includes,
     _posts,
   ]
+  meta:
+    collections:
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          help: "This is the title of your post."
+      - name: "toc"
+        field:
+          element: "checkbox"
+          label: "Table of contents"
+          help: "Select this to display a table of contents with your post."
+          value: true

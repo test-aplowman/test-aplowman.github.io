@@ -81,7 +81,7 @@ prose:
     _posts,
   ]
   metadata:
-    collections/:
+    collections:
       - name: "title"
         field:
           element: "text"
@@ -91,12 +91,7 @@ prose:
         field:
           element: "text"
           label: "Author"
-          value: CURRENT_USER          
-      # - name: "published"
-      #   field:
-      #     element: "checkbox"
-      #     label: "Published"
-      #     help: "Check this to publish your post."
+          value: CURRENT_USER
       - name: "toc"
         field:
           element: "checkbox"
@@ -104,6 +99,11 @@ prose:
           help: "Check this to display a table of contents with your post."
           value: true
     collections/_experiments:
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author"
+          value: CURRENT_USER      
       - name: "analysis_code"
         field:
           element: "text"

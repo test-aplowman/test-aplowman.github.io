@@ -81,7 +81,7 @@ prose:
     _posts,
   ]
   metadata:
-    "": 
+    "/": 
       - name: "author"
         field:
           element: "text"

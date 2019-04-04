@@ -1,7 +1,7 @@
 ---
 published: true
 author: Adam Plowman
-toc: true
+toc: false
 title: oranges
 ---
 ## A New Post

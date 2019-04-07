@@ -130,3 +130,7 @@ prose:
           element: "text"
           label: "Analysis code URL"
           help: "Add a GitHub URL here to the analysis code for this experiment."
+      - name: "select json"
+        field: select
+        label: "select json"
+        options: "https://test-aplowman.github.io/checklists/checklists.json"

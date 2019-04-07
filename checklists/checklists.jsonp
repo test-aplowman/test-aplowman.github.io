@@ -1,4 +1,4 @@
-[
+callback([
     {
         "name": "Granny Apples",
         "value": "grannies"
@@ -8,3 +8,4 @@
         "value": "reddies"
     }
 ]
+)

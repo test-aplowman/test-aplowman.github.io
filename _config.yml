@@ -133,4 +133,4 @@ prose:
       - name: "select json"
         field: select
         label: "select json"
-        options: "https://test-aplowman.github.io/checklists/checklists.json"
+        options: "https://test-aplowman.github.io/checklists/checklists.jsonp"

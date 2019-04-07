@@ -87,12 +87,6 @@ prose:
     - login: JQFonseca
       user: João Fonseca
   metadata:
-    checklists:
-      - name: "title"
-        field:
-          element: "text"
-          label: "Title"
-          value: "new-checklist"
     collections:
       - name: "published"
         field:

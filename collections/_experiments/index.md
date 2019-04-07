@@ -21,3 +21,10 @@ show_meta: false
         | [{{ exp.title }}]({{ exp.url }}) | {{ exp.author }} | [Download](/checklists/{{ exp_name[0] | append: '.yml' }}) | {{ an_code_link }} |
     {% endif -%}
 {% endfor -%}
+
+{% assign site_url_split = site.url | split: "https://" %}
+{% assign prose_new_check_url = "https://prose.io/#" | append: site.github_user_or_organisation | append: "/" | append: site_url_split[1] | append: "/new/master/checklists" %}
+
+<!-- http://prose.io/#test-aplowman/test-aplowman.github.io/new/master/checklists -->
+
+<a href="{{ prose_new_check_url }}" class="add-exp-button">+ add checklist</a>

@@ -20,11 +20,12 @@ layout: post
 {% include prose_checklist_urls.html %}
 
 {% assign checklist_name = page.title | replace: " ", "-" | downcase -%}
+{% assign exp_title_nospace = page.title | replace: " ", "-" | downcase -%}
 
+{{ "## Checklist" | markdownify }}
 {% for cl in checklists -%}
-{% if cl == checklist_name -%}
-  {{ "## Checklist" | markdownify }}  
-  {% assign exp_title_nospace = page.title | replace: " ", "-" | downcase -%}  
+{% if cl == checklist_name -%} 
+  {% assign checklist_exists = true -%}
   {% assign cl_edit_url = prose_cl_edit_url | append: exp_title_nospace | append: ".yml" -%}
   {% assign cl_history_url = cl_history_url | append: exp_title_nospace | append: ".yml" -%}
   <a href="{{ cl_edit_url }}" class="checklist-action edit-checklist">edit</a> | <a href="{{ cl_history_url }}" class="checklist-action checklist-history">history</a>
@@ -32,3 +33,8 @@ layout: post
   {{ my_include | markdownify }}
 {% endif -%}
 {% endfor %}
+
+{% if checklist_exists != true -%}
+  {% assign prose_cl_new_url = prose_cl_new_url | append: exp_title_nospace | append: ".yml" -%}
+  <a href="{{ prose_cl_new_url }}" class="checklist-action add-checklist">add</a>
+{% endif -%}

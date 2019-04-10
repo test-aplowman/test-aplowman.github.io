@@ -98,7 +98,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2 {
-    font-size: 1.7em;    
+    font-size: 1.7em;
+    // text-decoration: underline;
+    // text-decoration-color: silver;    
+    // display: inline-block;
+    // border-bottom: 1px solid silver;
+}
+h1.post-title {
+    text-decoration: none;
+    display: block;
+    border: none;
 }
 
 h3 {
@@ -170,4 +179,16 @@ table tr:nth-child(2n) {
 
 .article-content em + table {
     text-align: center;
+}
+
+table.smaller {
+    font-size: 85%;
+}
+
+table.vertical-header tr:nth-child(2n) {
+    background-color: initial;
+}
+
+table.vertical-header td:nth-child(2n) {
+    background-color: #f6f8fa;
 }

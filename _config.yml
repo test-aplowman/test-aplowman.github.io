@@ -119,7 +119,8 @@ prose:
         field:
           element: "text"
           label: "Title"
-          help: "This is the title of your post."      
+          help: "This is the title of your post."
+          value: CURRENT_DATETIME
       - name: "author"
         field:
           element: "text"

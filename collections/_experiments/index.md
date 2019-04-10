@@ -6,6 +6,11 @@ show_breadcrumbs: false
 show_meta: false
 ---
 
+{% include get_checklists.html %}
+
+{% assign site_url_split = site.url | split: "https://" %}
+{% assign prose_new_url = "https://prose.io/#" | append: site.github_user_or_organisation | append: "/" | append: site_url_split[1] | append: "/new/master/_includes/checklists/" %}
+
 {% assign exp_sorted = site.experiments | sort: "title" %}
 
 | Experiment | Champion | Metadata template | Analysis code |
@@ -18,13 +23,15 @@ show_meta: false
         {% if exp.analysis_code -%}
             {% assign an_code_link = '[Link](' | append: exp.analysis_code | append: ')' -%}
         {% endif -%}
-        | [{{ exp.title }}]({{ exp.url }}) | {{ exp.author }} | [Download](/checklists/{{ exp_name[0] | append: '.yml' }}) | {{ an_code_link }} |
+        {% assign exp_title_nospace = exp.title | replace: " ", "-" -%}
+        {% assign cl_add_url = prose_new_url | append: exp_title_nospace | append: ".yml" -%}
+        {% assign checklist_col = "[add](" | append: cl_add_url | append: ")" -%}
+        {% for cl in checklists -%}            
+            {% if cl == exp_title_nospace -%}
+                {% assign checklist_col = "view \| edit" -%}
+            {% endif -%}
+        {% endfor -%}
+        | [{{ exp.title }}]({{ exp.url }}) | {{ exp.author }} | {{ checklist_col }} | {{ an_code_link }} |
     {% endif -%}
 {% endfor -%}
 
-{% assign site_url_split = site.url | split: "https://" %}
-{% assign prose_new_check_url = "https://prose.io/#" | append: site.github_user_or_organisation | append: "/" | append: site_url_split[1] | append: "/new/master/checklists" %}
-
-<!-- http://prose.io/#test-aplowman/test-aplowman.github.io/new/master/checklists -->
-
-<a href="{{ prose_new_check_url }}" class="add-exp-button">+ add checklist</a>

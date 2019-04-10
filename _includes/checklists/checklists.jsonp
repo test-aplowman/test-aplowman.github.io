@@ -1,0 +1,12 @@
+---
+---
+{% include get_checklists.html %}
+callback([
+    {% for cl in checklists %}
+    {
+        "name": "{{ cl }}",
+        "value": "grannies"
+    },
+    {% endfor %}
+]
+)

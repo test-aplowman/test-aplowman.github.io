@@ -49,7 +49,7 @@ defaults:
       path: ""
       type: "experiments"
     values:
-      layout: post
+      layout: experiment
       tags: [protocol, experiment]
       toc: false
       published: true
@@ -78,7 +78,6 @@ prose:
     favicon.ico,
     _sass,
     _layouts,
-    _includes,
     _posts,
   ]
   users:

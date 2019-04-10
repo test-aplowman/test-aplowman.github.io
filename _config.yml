@@ -78,7 +78,6 @@ prose:
     favicon.ico,
     _sass,
     _layouts,
-    _includes,
     _posts,
   ]
   users:

@@ -344,12 +344,23 @@ a.add-exp-button, a.edit-page-button, a.page-history-button {
     line-height: 1rem;
     color: #666;
 }
-a.page-history-button {
-    width: 1.4rem;
-    background: url(/assets/images/site/history.svg) center no-repeat;
-    background-size: 60%;
-    background-color: #eee;
+
+a.edit-page-button {
+    background: url(/assets/images/site/edit.svg);
 }
+
+a.page-history-button {
+    background: url(/assets/images/site/history.svg);
+}
+
+a.edit-page-button, a.page-history-button {    
+    background-repeat: no-repeat;
+    background-color: #eee;  
+    background-size: 1.3rem;
+    background-position: 0.3rem 0.3rem;
+    padding-left: 2rem;
+}
+
 .page-manage-buttons {    
     position: absolute;    
     right: 3rem;

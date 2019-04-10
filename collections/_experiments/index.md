@@ -9,7 +9,10 @@ show_meta: false
 {% include get_checklists.html %}
 
 {% assign site_url_split = site.url | split: "https://" %}
-{% assign prose_new_url = "https://prose.io/#" | append: site.github_user_or_organisation | append: "/" | append: site_url_split[1] | append: "/new/master/_includes/checklists/" %}
+{% assign prose_url = "https://prose.io/#" | append: site.github_user_or_organisation | append: "/" | append: site_url_split[1] %}
+{% assign prose_cl_new_url = prose_url | append: "/new/master/_includes/checklists/" %}
+{% assign prose_cl_edit_url = prose_url | append: "/edit/master/_includes/checklists/" %}
+{% assign prose_cl_dir_url = prose_url | append: "tree/master/_includes/checklists" %}
 
 {% assign exp_sorted = site.experiments | sort: "title" %}
 
@@ -24,11 +27,15 @@ show_meta: false
             {% assign an_code_link = '[Link](' | append: exp.analysis_code | append: ')' -%}
         {% endif -%}
         {% assign exp_title_nospace = exp.title | replace: " ", "-" -%}
-        {% assign cl_add_url = prose_new_url | append: exp_title_nospace | append: ".yml" -%}
+        {% assign cl_add_url = prose_cl_new_url | append: exp_title_nospace | append: ".yml" -%}
+        {% assign cl_edit_url = prose_cl_edit_url | append: exp_title_nospace | append: ".yml" -%}        
         {% assign checklist_col = "[add](" | append: cl_add_url | append: ")" -%}
         {% for cl in checklists -%}            
             {% if cl == exp_title_nospace -%}
-                {% assign checklist_col = "view \| edit \| delete" -%}
+                {% assign view_link = exp.url | append: "#checklist" -%}
+                {% assign checklist_col = "[view](" | append: view_link | append: ")" -%}
+                {% assign checklist_col = checklist_col | append: " \| [edit](" | append: cl_edit_url | append: ")" -%}
+                {% assign checklist_col = checklist_col | append: " \| [delete](" | append: prose_cl_dir_url | append: ")" -%}
             {% endif -%}
         {% endfor -%}
         | [{{ exp.title }}]({{ exp.url }}) | {{ exp.author }} | {{ checklist_col }} | {{ an_code_link }} |

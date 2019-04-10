@@ -28,12 +28,12 @@ a {
     font-size: 95%;
 }
 
-.language-python, .language-bash {
+.language-python, .language-bash, .language-yaml, {
     position: relative;
     margin: 1rem 0;
 }
 
-.language-python::before, .language-bash::before {
+.language-python::before, .language-bash::before, .language-yaml::before {
     display: inline-block;    
     position: absolute;
     top: 0;
@@ -51,6 +51,9 @@ a {
 
 .language-bash::before {
     content: "Bash";
+}
+.language-yaml::before {
+    content: "YAML";
 }
 
 a {
@@ -191,4 +194,30 @@ table.vertical-header tr:nth-child(2n) {
 
 table.vertical-header td:nth-child(2n) {
     background-color: #f6f8fa;
+}
+
+table.experiments th {
+    vertical-align: top;
+}
+
+a.checklist-action {
+    font-variant: small-caps;
+}
+
+a.checklist-action.add-checklist {
+    color: green;
+}
+a.checklist-action.edit-checklist {
+    color: navy;
+}
+a.checklist-action.delete-checklist {
+    color: red;
+}
+a.checklist-action.checklist-history {
+    color: navy;
+}
+a.checklist-action.prose-dir-link {
+    display: block;
+    font-weight: normal;
+    color: gray;
 }

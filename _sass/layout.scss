@@ -334,10 +334,13 @@ article.main.page-wide .article-border {
     display: none;
 }
 
+a.add-exp-button {
+    margin-top: 2rem;
+}
+
 a.add-exp-button, a.edit-page-button, a.page-history-button {
     background-color: #eee;
     display: inline-block;
-    margin: 2rem 0;
     padding: 0.3rem 0.5rem 0.6rem;
     border: 1px solid #aaa;
     border-radius: 2px;

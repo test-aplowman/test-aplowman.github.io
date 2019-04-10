@@ -12,7 +12,7 @@ show_meta: false
 {% assign prose_url = "https://prose.io/#" | append: site.github_user_or_organisation | append: "/" | append: site_url_split[1] %}
 {% assign prose_cl_new_url = prose_url | append: "/new/master/_includes/checklists/" %}
 {% assign prose_cl_edit_url = prose_url | append: "/edit/master/_includes/checklists/" %}
-{% assign prose_cl_dir_url = prose_url | append: "tree/master/_includes/checklists" %}
+{% assign prose_cl_dir_url = prose_url | append: "/tree/master/_includes/checklists" %}
 
 {% assign exp_sorted = site.experiments | sort: "title" %}
 

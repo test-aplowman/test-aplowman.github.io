@@ -1,5 +1,6 @@
 $sidebar-width: 20rem;
-$content-margin-large: 2rem;
+$content-margin-large: 3rem;
+$content-margin-medium: 2rem;
 $content-margin-small: 1rem;
 $header-height: 4rem;
 
@@ -316,7 +317,7 @@ ul.inline-toc li {
 
 article.main {
     height: 100%;
-    padding: 0 1rem;
+    padding: 0 $content-margin-small;
 }
 
 p {
@@ -358,17 +359,26 @@ a.edit-page-button, a.page-history-button {
     background-color: #eee;  
     background-size: 1.3rem;
     background-position: 0.3rem 0.3rem;
-    padding-left: 2rem;
 }
 
 .page-manage-buttons {    
     position: absolute;    
-    right: 3rem;
-    margin:0;
+    right: $content-margin-small;
+    margin:0;    
 }
+
+.page-manage-buttons a {
+    height: 1rem;
+    padding-left: 1.5rem;
+}
+
 a.add-exp-button:hover, a.edit-page-button:hover, a.page-history-button:hover {
     text-decoration: initial;
     background-color: #ddd;
+}
+
+.page-manage-button-text {
+    display: none;
 }
 
 @media only screen and (min-width: 30rem) {
@@ -393,7 +403,7 @@ a.add-exp-button:hover, a.edit-page-button:hover, a.page-history-button:hover {
 @media only screen and (min-width: 60rem) {
 
     article.main {
-        padding: 0 2rem 2rem 2rem;
+        padding: 0 2rem 2rem $content-margin-medium;
     }
 
     .sidebar-wrap {
@@ -414,10 +424,10 @@ a.add-exp-button:hover, a.edit-page-button:hover, a.page-history-button:hover {
 
     .page-header-content {
         justify-content: left;
-        margin-left: $content-margin-large;
+        margin-left: $content-margin-medium;
     }
     .page-manage-buttons {
-        right: $content-margin-large;
+        right: $content-margin-medium;
     }
 
     .article-content {
@@ -434,6 +444,16 @@ a.add-exp-button:hover, a.edit-page-button:hover, a.page-history-button:hover {
 }
 
 @media only screen and (min-width: 90rem) {
+
+    .page-manage-button-text {
+        display: inline;
+    }
+
+    .page-manage-buttons a {
+        padding-left: 2rem;
+    }
+    
+
     article.main {
         display: grid;
         grid-template-rows: max-content auto;
@@ -441,7 +461,7 @@ a.add-exp-button:hover, a.edit-page-button:hover, a.page-history-button:hover {
         grid-template-areas: 
         "article-header article-border . "
         "article-content article-border article-toc";
-        padding-left: 3rem;
+        padding-left: $content-margin-large;
         padding-right: 0;
     }
 
@@ -455,10 +475,10 @@ a.add-exp-button:hover, a.edit-page-button:hover, a.page-history-button:hover {
     }
 
     .page-header-content {
-        margin-left: 3rem;
+        margin-left: $content-margin-large;
     }
     .page-manage-buttons {
-        right: 3rem;
+        right: $content-margin-large;
     }
    
     .article-header {

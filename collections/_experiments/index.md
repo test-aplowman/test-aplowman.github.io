@@ -28,7 +28,7 @@ show_meta: false
         {% assign checklist_col = "[add](" | append: cl_add_url | append: ")" -%}
         {% for cl in checklists -%}            
             {% if cl == exp_title_nospace -%}
-                {% assign checklist_col = "view \| edit" -%}
+                {% assign checklist_col = "view \| edit \| delete" -%}
             {% endif -%}
         {% endfor -%}
         | [{{ exp.title }}]({{ exp.url }}) | {{ exp.author }} | {{ checklist_col }} | {{ an_code_link }} |

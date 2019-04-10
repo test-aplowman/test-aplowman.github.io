@@ -4,12 +4,14 @@ layout: post
 
 {{ content }}
 
-{% if page.checklist -%}
+{% include get_checklists.html %}
+
+{% assign checklist_name = page.title | replace: " ", "-" -%}
+
+{% for cl in checklists -%}
+{% if cl == checklist_name -%}
   {{ "## Checklist" | markdownify }}
-  {% capture my_include %}{% include checklist.md checklist=page.checklist %}{% endcapture %}
+  {% capture my_include %}{% include checklist.md checklist=checklist_name %}{% endcapture %}
   {{ my_include | markdownify }}
 {% endif -%}
-
-the title w/o spaces: {{ page.title | replace: " ", "-" }}
-
-
+{% endfor %}

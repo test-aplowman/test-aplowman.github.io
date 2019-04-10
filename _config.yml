@@ -78,6 +78,7 @@ prose:
     favicon.ico,
     _sass,
     _layouts,
+    _includes,
     _posts,
   ]
   users:
@@ -97,6 +98,7 @@ prose:
           element: "text"
           label: "Title"
           help: "This is the title of your post."
+          value: CURRENT_DATETIME
       - name: "author"
         field:
           element: "text"

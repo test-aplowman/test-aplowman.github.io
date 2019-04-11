@@ -20,6 +20,15 @@ The following markdown...
 
 ## Adding images
 
+Use the following markdown to add an image:
+
+```markdown
+
+```
+This is the result of the above markdown:
+
+
+
 ### Adding captions to images
 
 Use the following code to add a caption to your image:

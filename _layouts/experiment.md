@@ -9,7 +9,13 @@ layout: post
   </tr>
   <tr>
       <th>Analysis code</th>
-      <td><a href="{{ page.analysis_code }}">Link</a></td>
+      <td>
+      {% if page.analysis_code %}
+        <a href="{{ page.analysis_code }}">Link</a>
+      {% else %}
+      -
+      {% endif %}            
+      </td>
   </tr>
 </table>
 <br/>

@@ -38,6 +38,8 @@ If you are not using Prose.io, please upload your images to the correct images d
 
 The following code...
 
+![aluminium_small.jpg]({{site.baseurl}}/assets/images/posts/aluminium_small.jpg)
+
 ```markdown
 ![Aluminium]({{site.baseurl}}/assets/images/posts/aluminium_small.jpg)
 ```

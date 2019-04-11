@@ -20,7 +20,10 @@ We can always change how content is organised at a later date, if the need arise
 
 ### Adding content with Prose.io
 
-Prose.io is a Markdown editor for GitHub content. It allows us to write/edit Markdown files and add them to the Wiki without necessarily understanding how `git` works. Whenever you clik on the `EDIT` button of a page, you will be taken to the Prose.io website.
+Prose.io is a Markdown editor for GitHub content. It allows us to write/edit Markdown files and add them to the Wiki without necessarily understanding how `git` works. Whenever you click on the `EDIT` button of a page, or you click a button to add a new page, you will be taken to the Prose.io website.
+
+When you are adding a new page, the first thing you should do is **change the title of the page**. By default, it is just set to the current date (something like: `2019-04-11 14:19 +0100`). You can change the title by editing the text at the top of the Prose.io page; it looks something like this:
+
 
 Prose.io has a Markdown editing toolbar that looks like this:
 
@@ -76,4 +79,3 @@ You can even add a caption to your image; the following Markdown:
 *Here is some aluminium*
 
 ## Experiments
-

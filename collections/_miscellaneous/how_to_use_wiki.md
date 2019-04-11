@@ -101,7 +101,7 @@ title: My new post
 Here is some Markdown content.
 ```
 
-For example, the title of each Markdown page is stored in the YAML front-matter.
+For example, the title and author of each Markdown page is stored in the YAML front-matter. When using Prose.io, the title is set from whatever you type in the title field at the top of the page. Additionally, an `author` field is also added to the front-matter, and this is by default populated according to your GitHub name.
 
 ## Experiments
 

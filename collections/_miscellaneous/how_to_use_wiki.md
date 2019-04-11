@@ -8,11 +8,24 @@ published: true
 ---
 ## How the site is organised
 
+Content is currently organised into three *collections*:
+
+- Experiments
+- Software & Simulation
+- Miscellaneous
+
+We can always change how content is organised at a later date, if the need arises. To add a page to one of these collections, navigate to the collection home page by using the links in the navigation side-bar. Next, click `ADD PAGE` or `ADD EXPERIMENT`. This will take you to a new page on Prose.io, which is a Markdown editor for GitHub. 
+
 ## How to add content
 
-### Markdown
+### Adding content with Prose.io
 
-The following markdown...
+Prose.io is a Markdown editor for GitHub content. It allows us to write/edit Markdown files and add them to the Wiki without necessarily understanding how `git` works.
+
+
+
+### Adding content without Prose.io
+
 
 ## Adding images
 
@@ -36,7 +49,7 @@ If you are not using Prose.io, please upload your images to the correct images d
 
 ### Examples
 
-The following code...
+The following Markdown...
 
 ```markdown
 ![Aluminium]({{site.baseurl}}/assets/images/posts/aluminium_small.jpg)
@@ -45,19 +58,21 @@ The following code...
 
 ![Aluminium]({{site.baseurl}}/assets/images/posts/aluminium_small.jpg)
 
-You can even add a caption to your image, with the following code:
+You can even add a caption to your image; the following Markdown:
 
 ```markdown
-![Rolling]({{site.baseurl}}/assets/images/posts/rolling.gif)
-*A visualisation of the rolling process.*
+![Aluminium]({{site.baseurl}}/assets/images/posts/aluminium_small.jpg)
+*Here is some aluminium*
 ```
 
-...which results in:
+...results in:
 
-![Rolling]({{site.baseurl}}/assets/images/posts/rolling.gif)
-*A visualisation of the rolling process.*
+![Aluminium]({{site.baseurl}}/assets/images/posts/aluminium_small.jpg)
+*Here is some aluminium*
 
-## Linking to other pages
+### Linking to other pages
+
+
 
 ## Experiments
 

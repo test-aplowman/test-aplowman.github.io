@@ -20,7 +20,7 @@ We can always change how content is organised at a later date, if the need arise
 
 ### Adding content with Prose.io
 
-Prose.io is a Markdown editor for GitHub content. It allows us to write/edit Markdown files and add them to the Wiki without necessarily understanding how `git` works.
+Prose.io is a Markdown editor for GitHub content. It allows us to write/edit Markdown files and add them to the Wiki without necessarily understanding how `git` works. Whenever you clik on the `EDIT` button of a page, you will be taken to the Prose.io website.
 
 Prose.io has a Markdown editing toolbar that looks like this:
 

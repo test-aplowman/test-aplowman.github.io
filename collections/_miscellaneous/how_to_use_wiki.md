@@ -36,7 +36,7 @@ If you are not using Prose.io, please upload your images to the correct images d
 
 ### Examples
 
-The following code...
+The following Markdown...
 
 ```markdown
 ![Aluminium]({{site.baseurl}}/assets/images/posts/aluminium_small.jpg)
@@ -45,7 +45,7 @@ The following code...
 
 ![Aluminium]({{site.baseurl}}/assets/images/posts/aluminium_small.jpg)
 
-You can even add a caption to your image, with the following code:
+You can even add a caption to your image, with the following Markdown:
 
 ```markdown
 ![Aluminium]({{site.baseurl}}/assets/images/posts/aluminium_small.jpg)

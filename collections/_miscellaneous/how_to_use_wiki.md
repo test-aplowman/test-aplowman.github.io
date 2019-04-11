@@ -24,6 +24,7 @@ Prose.io is a Markdown editor for GitHub content. It allows us to write/edit Mar
 
 When you are adding a new page, the first thing you should do is **change the title of the page**. By default, it is just set to the current date (something like: `2019-04-11 14:19 +0100`). You can change the title by editing the text at the top of the Prose.io page; it looks something like this:
 
+![prose_io_title_guide.png]({{site.baseurl}}/assets/images/posts/prose_io_title_guide.png)
 
 Prose.io has a Markdown editing toolbar that looks like this:
 

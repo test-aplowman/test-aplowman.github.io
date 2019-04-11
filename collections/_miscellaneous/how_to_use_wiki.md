@@ -34,8 +34,13 @@ This is the result of the above markdown:
 Use the following code to add a caption to your image:
 
 ```markdown
-![Image description](image_URL)
-*Caption goes here*
+![Rolling]({{site.baseurl}}/assets/images/posts/rolling.gif)
+*A visualisation of the rolling process.*
 ```
+
+This is the result of the above markdown:
+
+![Rolling]({{site.baseurl}}/assets/images/posts/rolling.gif)
+*A visualisation of the rolling process.*
 
 ## Linking to other pages

@@ -36,6 +36,8 @@ And Prose.io has a sidebar on the right-hand side that looks like this:
 ![prose_io_sidebar_guide_small.png]({{site.baseurl}}/assets/images/posts/prose_io_sidebar_guide_small.png)
 *The Prose.io sidebar allows you to save and preview the file, as well as edit the file's YAML metadata.*
 
+>Note that whenever you add a new Markdown file, or edit an existing Markdown file, you'll need to wait a couple of minutes before the changes show up on the website. This is because GitHub needs to re-build the website.
+
 ## Adding images
 
 Adding images with Markdown is easy; just type: `![image_description](image_url)`, where `image_description` is a short description of the image, and `image_url` is the URL that points to the image.

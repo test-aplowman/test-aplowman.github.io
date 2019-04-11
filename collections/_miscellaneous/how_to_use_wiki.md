@@ -38,8 +38,6 @@ If you are not using Prose.io, please upload your images to the correct images d
 
 The following code...
 
-![aluminium_small.jpg]({{site.baseurl}}/assets/images/posts/aluminium_small.jpg)
-
 ```markdown
 ![Aluminium]({{site.baseurl}}/assets/images/posts/aluminium_small.jpg)
 ```
@@ -50,14 +48,14 @@ The following code...
 You can even add a caption to your image, with the following code:
 
 ```markdown
-![Rolling]({{site.baseurl}}/assets/images/posts/rolling.gif)
-*A visualisation of the rolling process.*
+![Aluminium]({{site.baseurl}}/assets/images/posts/aluminium_small.jpg)
+*Here is some aluminium*
 ```
 
 ...which results in:
 
-![Rolling]({{site.baseurl}}/assets/images/posts/rolling.gif)
-*A visualisation of the rolling process.*
+![Aluminium]({{site.baseurl}}/assets/images/posts/aluminium_small.jpg)
+*Here is some aluminium*
 
 ## Linking to other pages
 

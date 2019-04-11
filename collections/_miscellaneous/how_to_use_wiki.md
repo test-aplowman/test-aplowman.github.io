@@ -20,20 +20,17 @@ We can always change how content is organised at a later date, if the need arise
 
 ### Adding content with Prose.io
 
-Prose.io is a Markdown editor for GitHub content. It allows us to write/edit Markdown files and add them to the Wiki without necessarily understanding how `git` works.
+Prose.io is a Markdown editor for GitHub content. It allows us to write/edit Markdown files and add them to the Wiki without necessarily understanding how `git` works. Whenever you clik on the `EDIT` button of a page, you will be taken to the Prose.io website.
 
 Prose.io has a Markdown editing toolbar that looks like this:
 
-![prose_io_toolbar_guide.png]({{site.baseurl}}/assets/images/posts/prose_io_toolbar_guide.png)
-*The Markdown editing toolbar of Prose.io*
+![prose_io_toolbar_guide_small.png]({{site.baseurl}}/assets/images/posts/prose_io_toolbar_guide_small.png)
+*The Markdown editing toolbar of Prose.io allows you to format your content.*
 
 And Prose.io has a sidebar on the right-hand side that looks like this:
 
-![prose_io_sidebar_guide.png]({{site.baseurl}}/assets/images/posts/prose_io_sidebar_guide.png)
+![prose_io_sidebar_guide_small.png]({{site.baseurl}}/assets/images/posts/prose_io_sidebar_guide_small.png)
 *The Prose.io sidebar allows you to save and preview the file, as well as edit the file's YAML metadata.*
-
-### Adding content without Prose.io
-
 
 ## Adding images
 
@@ -78,10 +75,5 @@ You can even add a caption to your image; the following Markdown:
 ![Aluminium]({{site.baseurl}}/assets/images/posts/aluminium_small.jpg)
 *Here is some aluminium*
 
-### Linking to other pages
-
-
-
 ## Experiments
 
-## Frontmatter and Prose.io

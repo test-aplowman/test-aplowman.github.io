@@ -34,23 +34,25 @@ Then you can either manually add the image URL and image description, or you can
 
 If you are not using Prose.io, please upload your images to the correct images directory of the Wiki, which is `/assets/images/posts/`. This way, we keep all post media in one place, and people who *are* using Prose.io can also use your images.
 
+### Examples
+
+The following code...
+
 ```markdown
 ![Aluminium]({{site.baseurl}}/assets/images/posts/aluminium.jpg)
 ```
-This is the result of the above markdown:
+...adds the following image:
 
 ![Aluminium]({{site.baseurl}}/assets/images/posts/aluminium.jpg)
 
-### Adding captions to images
-
-Use the following code to add a caption to your image:
+You can even add a caption to your image, with the following code:
 
 ```markdown
 ![Rolling]({{site.baseurl}}/assets/images/posts/rolling.gif)
 *A visualisation of the rolling process.*
 ```
 
-This is the result of the above markdown:
+...which results in:
 
 ![Rolling]({{site.baseurl}}/assets/images/posts/rolling.gif)
 *A visualisation of the rolling process.*

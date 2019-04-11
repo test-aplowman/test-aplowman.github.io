@@ -20,6 +20,8 @@ We can always change how content is organised at a later date, if the need arise
 
 ### Adding content with Prose.io
 
+> Note that whenever you add a new Markdown file, or edit an existing Markdown file, you'll need to wait a couple of minutes before the changes show up on the website. This is because GitHub needs to re-build the website.
+
 Prose.io is a Markdown editor for GitHub content. It allows us to write/edit Markdown files and add them to the Wiki without necessarily understanding how `git` works. Whenever you click on the `EDIT` button of a page, or you click a button to add a new page, you will be taken to the Prose.io website.
 
 When you are adding a new page, the first thing you should do is **change the title of the page** (However, there is an exception to this: if you are adding a new experiment metadata YAML file, please **do not** change the title from what it is by default.). By default, it is just set to the current date (something like: `2019-04-11 14:19 +0100`). You can change the title by editing the text at the top of the Prose.io page; it looks something like this:
@@ -35,8 +37,6 @@ And Prose.io has a sidebar on the right-hand side that looks like this:
 
 ![prose_io_sidebar_guide_small.png]({{site.baseurl}}/assets/images/posts/prose_io_sidebar_guide_small.png)
 *The Prose.io sidebar allows you to save and preview the file, as well as edit the file's YAML metadata.*
-
-> Note that whenever you add a new Markdown file, or edit an existing Markdown file, you'll need to wait a couple of minutes before the changes show up on the website. This is because GitHub needs to re-build the website.
 
 ## Adding images
 

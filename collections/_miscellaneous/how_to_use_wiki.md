@@ -10,6 +10,10 @@ published: true
 
 ## How to add content
 
+### Markdown
+
+The following markdown...
+
 ## Experiments
 
 ## Frontmatter and Prose.io

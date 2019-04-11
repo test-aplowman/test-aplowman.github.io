@@ -46,7 +46,7 @@ Adding images with Markdown is easy; just type: `![image_description](image_url)
 
 ### Adding images with Prose.io
 
-If you are using Prose.io to add and edit content (i.e. by clicking on the `EDIT` button in the top-right corner of the Wiki), you can easily upload and insert your own images, and Prose.io will insert the correct Markdown code for you. To use Prose.io to add an image to your Markdown, clik on the `Insert Image` button on the Prose.io toolbar:
+If you are using Prose.io to add and edit content (i.e. by clicking on the `EDIT` button in the top-right corner of the Wiki), you can easily upload and insert your own images, and Prose.io will insert the correct Markdown code for you. To use Prose.io to add an image to your Markdown, click on the `Insert Image` button on the Prose.io toolbar:
 
 ![prose_io_toolbar.png]({{site.baseurl}}/assets/images/posts/prose_io_toolbar.png)
 *The Prose.io toolbar, with the Insert Image button highlighted*
@@ -58,7 +58,7 @@ Then you can either manually add the image URL and image description, or you can
 
 ### Adding images without Prose.io
 
-If you are not using Prose.io, please upload your images to the correct images directory of the Wiki, which is `/assets/images/posts/`. This way, we keep all post media in one place, and people who *are* using Prose.io can also use your images.
+If you are not using Prose.io, please commit your images to the correct images directory of the Wiki, which is `/assets/images/posts/`. This way, we keep all post media in one place, and people who *are* using Prose.io can also use your images.
 
 ### Examples
 
@@ -85,9 +85,9 @@ You can even add a caption to your image; the following Markdown:
 
 ## Markdown front-matter (YAML metadata)
 
->Note this section discusses how we can add YAML data to the front of a Markdown file. This is called "front-matter" or "metadata". This is a distinct concept from our idea of a metadata file for experiments (although both are written in YAML!
+>Note this section discusses how we can add YAML data to the front of a Markdown file. This is called "front-matter" or "metadata". This is a distinct concept from our idea of a metadata file for experiments (although both are written in YAML!).
 
-The LightForm Wiki makes extensive use of YAML front-matter to configure the Markdown pages correctly. When using Prose.io, this YAML block is extracted out from the Markdown editor and placed inside the metadata editor view, which you can access using the Prose.io side-bar on the right-hand side. However, if you're editing the Markdown files in a standard text editor, you'll see the the front-matter at the top of the file, delineated by three dashes:
+The LightForm Wiki makes extensive use of YAML front-matter to configure the Markdown pages correctly. When using Prose.io, this YAML block is extracted out from the Markdown editor and placed inside the metadata editor view, which you can access using the Prose.io side-bar on the right-hand side. However, if you're editing the Markdown files in a standard text editor, you'll see the front-matter at the top of the file, delineated by three dashes:
 
 ```markdown
 ---
@@ -107,4 +107,4 @@ For example, the title of each Markdown page is stored in the YAML front-matter.
 
 The Experiments home page show a list of experiments and allows us to add/edit the associated metadata YAML file. If you want to add a new experiment, click the `ADD EXPERIMENT` button on the Experiments home page. This will take you to a new Markdown file in Prose.io. The first thing to do is **change the title** to something descriptive, as discussed above. You can then add information about the experiment using the Prose.io Markdown editor. If you'd like to associate the experiment with a GitHub repository that provides analysis code, you can add a URL to this GitHub repository, by clicking on the metadata viewer/editor within the Prose.io side-bar on the right hand side. Make sure you save the new file by clicking the save and then `commit` buttons.
 
-If you want to add an experiment metatdata YAML file to your new experiment page, firstly go to the Experiment home page (you might have to wait a couple of minutes for your new experiment to appear in the experiements table). Under the `Metadata template` column of the table, click on the `ADD` button for your new experiment. You will be taken to a new YAML file in Prose.io. This time, please **do not** change the title (actually the file name) of this file, since we rely on the automatically generated file name to associate the metadata template with the correct experiment. Delete the pre-existing Markdown content and add your own YAML code to this file. Make sure you save it!
+If you want to add an experiment metadata YAML file to your new experiment page, firstly go to the Experiment home page (you might have to wait a couple of minutes for your new experiment to appear in the experiments table). Under the `Metadata template` column of the table, click on the `ADD` button for your new experiment. You will be taken to a new YAML file in Prose.io. This time, please **do not** change the title (actually the file name) of this file, since we rely on the automatically generated file name to associate the metadata template with the correct experiment. Delete the pre-existing Markdown content and add your own YAML code to this file. Make sure you save it!

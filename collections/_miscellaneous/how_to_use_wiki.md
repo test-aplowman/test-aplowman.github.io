@@ -39,11 +39,11 @@ If you are not using Prose.io, please upload your images to the correct images d
 The following code...
 
 ```markdown
-![Aluminium]({{site.baseurl}}/assets/images/posts/aluminium.jpg)
+![Aluminium]({{site.baseurl}}/assets/images/posts/aluminium_small.jpg)
 ```
 ...adds the following image:
 
-![Aluminium]({{site.baseurl}}/assets/images/posts/aluminium.jpg)
+![Aluminium]({{site.baseurl}}/assets/images/posts/aluminium_small.jpg)
 
 You can even add a caption to your image, with the following code:
 

@@ -25,7 +25,7 @@ The following markdown...
 Use the following code to add a caption to your image:
 
 ```markdown
-![Image description](image URL)
+![Image description](image_URL)
 *Caption goes here*
 ```
 

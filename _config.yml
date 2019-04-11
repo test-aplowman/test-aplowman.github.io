@@ -85,6 +85,18 @@ prose:
       user: Adam Plowman
     - login: JQFonseca
       user: João Fonseca
+    - login: christopher-daniel
+      user: Christopher Daniel
+    - login: merrygoat
+      user: Peter Crowther
+    - login: mikesmic
+      user: Michael Atkinson
+    - login: nicholasbyres
+      user: Nicholas Byres
+    - login: Paloma-Hidalgo
+      user: Paloma Hidalgo
+    - login: chrisrace
+      user: Christopher Race
   metadata:
     collections:
       - name: "published"

@@ -45,14 +45,14 @@ The following Markdown...
 
 ![Aluminium]({{site.baseurl}}/assets/images/posts/aluminium_small.jpg)
 
-You can even add a caption to your image, with the following Markdown:
+You can even add a caption to your image; the following Markdown:
 
 ```markdown
 ![Aluminium]({{site.baseurl}}/assets/images/posts/aluminium_small.jpg)
 *Here is some aluminium*
 ```
 
-...which results in:
+...results in:
 
 ![Aluminium]({{site.baseurl}}/assets/images/posts/aluminium_small.jpg)
 *Here is some aluminium*

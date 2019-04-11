@@ -14,19 +14,38 @@ published: true
 
 The following markdown...
 
-## Experiments
-
-## Frontmatter and Prose.io
-
 ## Adding images
+
+Adding images with Markdown is easy; just type: `![image_description](image_url)`, where `image_description` is a short description of the image, and `image_url` is the URL that points to the image. If you are using Prose.io to add and edit content (i.e. by clicking on the `EDIT` button in the top-right corner of the Wiki), you can easily upload and insert your own images, and Prose.io will sort out the URL for you.
+
+To use Prose.io to add an image to your Markdown, clik on the `Insert Image` button on the Prose.io toolbar:
+
+![Inserting images with Prose.io]({{site.baseurl}}/assets/images/posts/prose_authorise_button.png
+*Inserting images with Prose.io*
+
+```markdown
+![Aluminium]({{site.baseurl}}/assets/images/posts/aluminium.jpg)
+```
+This is the result of the above markdown:
+
+![Aluminium]({{site.baseurl}}/assets/images/posts/aluminium.jpg)
 
 ### Adding captions to images
 
 Use the following code to add a caption to your image:
 
 ```markdown
-![Image description](image_URL)
-*Caption goes here*
+![Rolling]({{site.baseurl}}/assets/images/posts/rolling.gif)
+*A visualisation of the rolling process.*
 ```
 
+This is the result of the above markdown:
+
+![Rolling]({{site.baseurl}}/assets/images/posts/rolling.gif)
+*A visualisation of the rolling process.*
+
 ## Linking to other pages
+
+## Experiments
+
+## Frontmatter and Prose.io

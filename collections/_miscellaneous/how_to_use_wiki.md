@@ -46,7 +46,7 @@ Adding images with Markdown is easy; just type: `![image_description](image_url)
 
 ### Adding images with Prose.io
 
-If you are using Prose.io to add and edit content (i.e. by clicking on the `EDIT` button in the top-right corner of the Wiki), you can easily upload and insert your own images, and Prose.io will insert the correct Markdown code for you. To use Prose.io to add an image to your Markdown, clik on the `Insert Image` button on the Prose.io toolbar:
+If you are using Prose.io to add and edit content (i.e. by clicking on the `EDIT` button in the top-right corner of the Wiki), you can easily upload and insert your own images, and Prose.io will insert the correct Markdown code for you. To use Prose.io to add an image to your Markdown, click on the `Insert Image` button on the Prose.io toolbar:
 
 ![prose_io_toolbar.png]({{site.baseurl}}/assets/images/posts/prose_io_toolbar.png)
 *The Prose.io toolbar, with the Insert Image button highlighted*

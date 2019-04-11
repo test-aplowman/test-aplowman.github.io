@@ -32,7 +32,7 @@ Then you can either manually add the image URL and image description, or you can
 
 ### Adding images without Prose.io
 
-If you are not using Prose.io, please add upload your images to the correct images directory of the Wiki, which is `/assets/images/posts/`. This way, we keep all post media in one place, and people who *are* using Prose.io can also use your images.
+If you are not using Prose.io, please upload your images to the correct images directory of the Wiki, which is `/assets/images/posts/`. This way, we keep all post media in one place, and people who *are* using Prose.io can also use your images.
 
 ```markdown
 ![Aluminium]({{site.baseurl}}/assets/images/posts/aluminium.jpg)

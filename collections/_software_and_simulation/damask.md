@@ -9,14 +9,12 @@ toc: true
 published: true
 ---
 
-*Note: I am in the process of writing a Python package for simplifying the process of using DAMASK on the CSF. I will add a Wiki entry summarising this when it's done. -AP*
+>Note: I am in the process of writing a Python package for simplifying the process of using DAMASK on the CSF. I will add a Wiki entry summarising this when it's done. -AP
 
 [DAMASK](https://damask.mpie.de/) is a code for simulating crystal plasticity within a finite-strain continuum mechanical framework.
 
-> Note: I have requested for DAMASK to be compiled/installed on the "new" CSF (`csf3.itservices.manchester.ac.uk`), since the old one is being gradually decommissioned. I'll update this post when that happens.
-
 ## Running DAMASK simulations on the CSF
-* DAMASK is currently installed on the CSF (`csf2.itservices.manchester.ac.uk`) at Manchester.
+* DAMASK is currently installed on the CSF (`csf3.itservices.manchester.ac.uk`) at Manchester.
 * Due to a file-locking issue, DAMASK cannot currently be run on the `scratch` file system.
 * Instead, we should run it within our group home directory `/mnt/iusers01/jf01/<user>` 
   * ...or maybe on RDS `/mnt/eps01-rds/jf01-home01/<user>`?
@@ -27,7 +25,7 @@ published: true
 {% include code/damask_js_basic.sh %}
 ```
 
-TODO: add a separate wiki entry for job array strategies
+>TODO: add a separate wiki entry for job array strategies
 
 
 ## Post-processing results on the CSF

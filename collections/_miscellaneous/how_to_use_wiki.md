@@ -100,6 +100,8 @@ b: 2 # This is the YAML front-matter
 Here is some Markdown content.
 ```
 
+For example, the title of each Markdown page is stored in the YAML front-matter.
+
 ## Experiments
 
 The Experiments home page show a list of experiments and allows us to add/edit the associated metadata YAML file. If you want to add a new experiment, click the `ADD EXPERIMENT` button on the Experiments home page. This will take you to a new Markdown file in Prose.io. The first thing to do is **change the title** to something descriptive, as discussed above. You can then add information about the experiment using the Prose.io Markdown editor. Make sure you save the new file by clicking the save button.

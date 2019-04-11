@@ -2,7 +2,6 @@
 title: Dilatometer hot-compression tests
 author: João Fonseca
 analysis_code: 'https://github.com/LightForm-group/Ti_dilatometer_analysis'
-checklist: heya
 published: true
 ---
 

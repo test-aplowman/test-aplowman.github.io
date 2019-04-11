@@ -12,14 +12,8 @@ published: true
 
 ## Experiments
 
-### Frontmatter and Prose.io
+## Frontmatter and Prose.io
 
-### Adding images
+## Adding images
 
-#### Some info about images
-
-#### Back to H4 heading
-
-### Linking to other pages
-
-## Another thing here about this stuff
+## Linking to other pages

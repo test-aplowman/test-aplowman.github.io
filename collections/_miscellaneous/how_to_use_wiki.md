@@ -91,8 +91,9 @@ The LightForm Wiki makes extensive use of YAML front-matter to configure the Mar
 
 ```markdown
 ---
+# This is the YAML front-matter
 toc: true
-title: My new post # This is the YAML front-matter
+title: My new post
 ---
 
 ## Markdown Heading

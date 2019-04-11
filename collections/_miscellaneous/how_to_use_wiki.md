@@ -20,4 +20,13 @@ The following markdown...
 
 ## Adding images
 
+### Adding captions to images
+
+Use the following code to add a caption to your image:
+
+```markdown
+![Image description](image URL)
+*Caption goes here*
+```
+
 ## Linking to other pages

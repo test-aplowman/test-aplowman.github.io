@@ -20,7 +20,7 @@ The following markdown...
 
 ## Adding images
 
-Use the following markdown to add an image:
+Adding images with Markdown is easy; just type: `![image_description](image_url)`, where `image_description` is a short description of the image, and `image_url` is the URL that points to the image. If you are using Prose.io to add and edit content (i.e. by clicking on the `EDIT` button in the top-right corner of the Wiki), you can upload your own images to the Wiki very easily.
 
 ```markdown
 ![Aluminium]({{site.baseurl}}/assets/images/posts/aluminium.jpg)

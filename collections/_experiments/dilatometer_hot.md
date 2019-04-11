@@ -23,28 +23,3 @@ Use deformation mode on the dilatometer. See manual page xx.
 
 ## Other notes
 - other notes
-
-really long stuff
-really long stuff
-really long stuff
-really long stuff
-really long stuff
-
-really long stuff
-
-really long stuff
-
-really long stuff
-
-really long stuff
-
-really long stuff
-v
-
-really long stuff
-
-really long stuff
-
-really long stuff
-
-really long stuff

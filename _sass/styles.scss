@@ -28,12 +28,12 @@ a {
     font-size: 95%;
 }
 
-.language-python, .language-bash, .language-yaml, {
+.language-python, .language-bash, .language-yaml, .language-markdown {
     position: relative;
     margin: 1rem 0;
 }
 
-.language-python::before, .language-bash::before, .language-yaml::before {
+.language-python::before, .language-bash::before, .language-yaml::before, .language-markdown::before {
     display: inline-block;    
     position: absolute;
     top: 0;
@@ -52,8 +52,13 @@ a {
 .language-bash::before {
     content: "Bash";
 }
+
 .language-yaml::before {
     content: "YAML";
+}
+
+.language-markdown::before {
+    content: "Markdown";
 }
 
 a {

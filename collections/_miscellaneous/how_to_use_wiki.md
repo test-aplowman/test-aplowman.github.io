@@ -24,12 +24,12 @@ Prose.io is a Markdown editor for GitHub content. It allows us to write/edit Mar
 
 Prose.io has a Markdown editing toolbar that looks like this:
 
-![prose_io_toolbar_guide.png]({{site.baseurl}}/assets/images/posts/prose_io_toolbar_guide.png)
+![prose_io_sidebar_guide_small.png]({{site.baseurl}}/assets/images/posts/prose_io_sidebar_guide_small.png)
 *The Markdown editing toolbar of Prose.io*
 
 And Prose.io has a sidebar on the right-hand side that looks like this:
 
-![prose_io_sidebar_guide.png]({{site.baseurl}}/assets/images/posts/prose_io_sidebar_guide.png)
+![prose_io_sidebar_guide_small.png]({{site.baseurl}}/assets/images/posts/prose_io_sidebar_guide_small.png)
 *The Prose.io sidebar allows you to save and preview the file, as well as edit the file's YAML metadata.*
 
 ### Adding content without Prose.io

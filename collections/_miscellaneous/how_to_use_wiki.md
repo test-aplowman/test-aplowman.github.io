@@ -23,11 +23,11 @@ The following markdown...
 Use the following markdown to add an image:
 
 ```markdown
-
+![Aluminium]({{site.baseurl}}/assets/images/posts/aluminium.jpg)
 ```
 This is the result of the above markdown:
 
-
+![Aluminium]({{site.baseurl}}/assets/images/posts/aluminium.jpg)
 
 ### Adding captions to images
 

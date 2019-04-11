@@ -16,7 +16,11 @@ The following markdown...
 
 ## Adding images
 
-Adding images with Markdown is easy; just type: `![image_description](image_url)`, where `image_description` is a short description of the image, and `image_url` is the URL that points to the image. If you are using Prose.io to add and edit content (i.e. by clicking on the `EDIT` button in the top-right corner of the Wiki), you can easily upload and insert your own images, and Prose.io will insert the correct Markdown code for you.
+Adding images with Markdown is easy; just type: `![image_description](image_url)`, where `image_description` is a short description of the image, and `image_url` is the URL that points to the image.
+
+### Adding images with using Prose.io
+
+If you are using Prose.io to add and edit content (i.e. by clicking on the `EDIT` button in the top-right corner of the Wiki), you can easily upload and insert your own images, and Prose.io will insert the correct Markdown code for you.
 
 To use Prose.io to add an image to your Markdown, clik on the `Insert Image` button on the Prose.io toolbar:
 
@@ -27,6 +31,10 @@ Then you can either manually add the image URL and image description, or you can
 
 ![prose_io_insert_image.png]({{site.baseurl}}/assets/images/posts/prose_io_insert_image.png)
 *Inserting an image with Pose.io.*
+
+### Adding images without using Prose.io
+
+If you are not using Prose.io, please add upload your images to the correct images directory of the Wiki, which is `/assets/images/posts/`. This way, we keep all post media in one place, and people who are using Prose.io can also use your images.
 
 ```markdown
 ![Aluminium]({{site.baseurl}}/assets/images/posts/aluminium.jpg)

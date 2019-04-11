@@ -14,10 +14,6 @@ published: true
 
 The following markdown...
 
-## Experiments
-
-## Frontmatter and Prose.io
-
 ## Adding images
 
 Adding images with Markdown is easy; just type: `![image_description](image_url)`, where `image_description` is a short description of the image, and `image_url` is the URL that points to the image. If you are using Prose.io to add and edit content (i.e. by clicking on the `EDIT` button in the top-right corner of the Wiki), you can upload your own images to the Wiki very easily.
@@ -44,3 +40,7 @@ This is the result of the above markdown:
 *A visualisation of the rolling process.*
 
 ## Linking to other pages
+
+## Experiments
+
+## Frontmatter and Prose.io

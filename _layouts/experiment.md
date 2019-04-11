@@ -22,7 +22,7 @@ layout: post
 {% assign checklist_name = page.title | replace: " ", "-" | downcase -%}
 {% assign exp_title_nospace = page.title | replace: " ", "-" | downcase -%}
 
-{{ "## Checklist" | markdownify }}
+{{ "## Metadata template" | markdownify }}
 {% for cl in checklists -%}
 {% if cl == checklist_name -%} 
   {% assign checklist_exists = true -%}

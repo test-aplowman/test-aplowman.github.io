@@ -9,6 +9,8 @@ toc: true
 published: true
 ---
 
+*Note: I am in the process of writing a Python package for simplifying the process of using DAMASK on the CSF. I will add a Wiki entry summarising this when it's done. -AP*
+
 [DAMASK](https://damask.mpie.de/) is a code for simulating crystal plasticity within a finite-strain continuum mechanical framework.
 
 > Note: I have requested for DAMASK to be compiled/installed on the "new" CSF (`csf3.itservices.manchester.ac.uk`), since the old one is being gradually decommissioned. I'll update this post when that happens.

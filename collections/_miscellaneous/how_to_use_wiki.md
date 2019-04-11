@@ -20,12 +20,13 @@ Adding images with Markdown is easy; just type: `![image_description](image_url)
 
 To use Prose.io to add an image to your Markdown, clik on the `Insert Image` button on the Prose.io toolbar:
 
-![Inserting images with Prose.io]({{site.baseurl}}/assets/images/posts/prose_authorise_button.png
+![prose_io_toolbar.png]({{site.baseurl}}/assets/images/posts/prose_io_toolbar.png)
 *Inserting images with Prose.io*
 
 Then you can either manually add the image URL and image description, or you can add an image that has already been added to the Wiki, or you can upload a new image to the wiki. In the latter cases, the image description and image URL are automatically added for you.
 
-
+![prose_io_insert_image.png]({{site.baseurl}}/assets/images/posts/prose_io_insert_image.png)
+*Inserting an image with Pose.io.*
 
 ```markdown
 ![Aluminium]({{site.baseurl}}/assets/images/posts/aluminium.jpg)

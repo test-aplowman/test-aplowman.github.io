@@ -24,6 +24,8 @@ We can always change how content is organised at a later date, if the need arise
 
 Prose.io is a Markdown editor for GitHub content. It allows us to write/edit Markdown files and add them to the Wiki without necessarily understanding how `git` works. Whenever you click on the `EDIT` button of a page, or you click a button to add a new page, you will be taken to the Prose.io website.
 
+> Note that the first time you visit Prose.io, and occasionally on subsequent occasions, you will need to *authorise* Prose.io to access your GitHub content. The authorise button may appear in the bottom-right corner of the Prose.io website, and looks like this: ![prose_authorise_button.png]({{site.baseurl}}/assets/images/posts/prose_authorise_button.png)
+
 When you are adding a new page, the first thing you should do is **change the title of the page** (However, there is an exception to this: if you are adding a new experiment metadata YAML file, please **do not** change the title from what it is by default.). By default, the title of a new Markdown file is just set to the current date (something like: `2019-04-11 14:19 +0100`). You can change the title by editing the text at the top of the Prose.io page; it looks something like this:
 
 ![prose_io_title_guide_small.png]({{site.baseurl}}/assets/images/posts/prose_io_title_guide_small.png)

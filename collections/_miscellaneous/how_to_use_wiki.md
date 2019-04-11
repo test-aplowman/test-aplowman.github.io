@@ -85,7 +85,7 @@ You can even add a caption to your image; the following Markdown:
 
 ## Markdown front-matter (YAML metadata)
 
->Note this section discusses how we can add YAML data to the front of a Markdown file. This if called "front-matter" or "metadata". This is a distinct concept from our idea of a metadata file for experiments (although both are written in YAML!
+>Note this section discusses how we can add YAML data to the front of a Markdown file. This is called "front-matter" or "metadata". This is a distinct concept from our idea of a metadata file for experiments (although both are written in YAML!
 
 The LightForm Wiki makes extensive use of YAML front-matter to configure the Markdown pages correctly. When using Prose.io, this YAML block is extracted out from the Markdown editor and placed inside the Meta Data editor view, which you can access using the Prose.io side-bar on the right-hand side. However, if you're editing the Markdown files in a standard text editor, you'll see the the front-matter at the top of the file, delineated by three dashes:
 
@@ -101,7 +101,7 @@ title: My new post
 Here is some Markdown content.
 ```
 
-For example, the title and author of each Markdown page is stored in the YAML front-matter. When using Prose.io, the title is set from whatever you type in the title field at the top of the page. Additionally, an `author` field is also added to the front-matter, and this is by default populated according to your GitHub name.
+For example, the title and author of each Markdown page is stored in the YAML front-matter. When using Prose.io, the title is set from whatever you type in the title field at the top of the page. Additionally, an `author` field is also added to the front-matter, and this is, by default, populated according to your GitHub name.
 
 ## Experiments
 

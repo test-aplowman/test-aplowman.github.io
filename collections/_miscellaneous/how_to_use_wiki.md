@@ -8,6 +8,14 @@ published: true
 ---
 ## How the site is organised
 
+Content is currently organised into three *collection*:
+
+- Experiments
+- Software & Simulation
+- Miscellaneous
+
+
+
 ## How to add content
 
 ### Adding images
@@ -53,7 +61,9 @@ You can even add a caption to your image; the following Markdown:
 ![Aluminium]({{site.baseurl}}/assets/images/posts/aluminium_small.jpg)
 *Here is some aluminium*
 
-## Linking to other pages
+### Linking to other pages
+
+
 
 ## Experiments
 

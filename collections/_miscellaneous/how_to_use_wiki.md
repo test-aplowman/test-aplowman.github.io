@@ -8,13 +8,13 @@ published: true
 ---
 ## How the site is organised
 
-Content is currently organised into three *collection*:
+Content is currently organised into three *collections*:
 
 - Experiments
 - Software & Simulation
 - Miscellaneous
 
-We can always change how content is organised at a later date, if the need arises. To add a page to one of these collections, navigate to the collection home page by using the links in the navigation side-bar. Next click `ADD PAGE` or `ADD EXPERIMENT`. This will take you to a new page on Prose.io, which is a Markdown editor for GitHub. 
+We can always change how content is organised at a later date, if the need arises. To add a page to one of these collections, navigate to the collection home page by using the links in the navigation side-bar. Next, click `ADD PAGE` or `ADD EXPERIMENT`. This will take you to a new page on Prose.io, which is a Markdown editor for GitHub. 
 
 ## How to add content
 

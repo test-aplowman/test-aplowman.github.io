@@ -27,7 +27,7 @@ layout: post
 {% if cl == checklist_name -%} 
   {% assign checklist_exists = true -%}
   {% assign cl_edit_url = prose_cl_edit_url | append: exp_title_nospace | append: ".yml" -%}
-  {% assign cl_history_url = cl_history_url | append: exp_title_nospace | append: ".yml" -%}
+  {% assign cl_history_url = github_cl_history_url | append: exp_title_nospace | append: ".yml" -%}
   <a href="{{ cl_edit_url }}" class="checklist-action edit-checklist">edit</a> | <a href="{{ cl_history_url }}" class="checklist-action checklist-history">history</a>
   {% capture my_include %}{% include checklist.md checklist=checklist_name %}{% endcapture %}
   {{ my_include | markdownify }}

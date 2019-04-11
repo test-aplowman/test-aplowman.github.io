@@ -82,3 +82,7 @@ You can even add a caption to your image; the following Markdown:
 *Here is some aluminium*
 
 ## Experiments
+
+The Experiments home page show a list of experiments and allows us to add/edit the associated metadata YAML file. If you want to add a new experiment, click the `ADD EXPERIMENT` button on the Experiments home page. This will take you to a new Markdown file in Prose.io. The first thing to do is **change the title** to something descriptive, as discussed above. You can then add information about the experiment using the Prose.io Markdown editor. Make sure you save the new file by clicking the save button.
+
+If you want to add an experiment metatdata YAML file to your new experiment page, firstly go to the Experiment home page (you might have to wait a couple of minutes for your new experiment to appear in the experiements table). Under the `Metadata template` column of the table, click on the `ADD` button for your new experiment.
